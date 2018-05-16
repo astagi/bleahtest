@@ -1,0 +1,41 @@
+
+body {
+    background-color: darkblue;
+    display: flex;
+    min-height: 100vh;
+    flex-direction: column;
+}
+
+header {
+    flex: 1;
+    background-color: yellow;
+    display: block;
+    width: 100%;
+}
+
+main {
+    flex: 4;
+    display: flex;
+    background-color: red;
+}
+
+footer {
+    background-color: blue;
+    flex: 1;
+}
+
+.side {
+    flex: 1;
+    background-color: pink;
+}
+
+.main {
+    flex: 8;
+    background-color: darkred;
+}
+
+@media (max-width: 600px) {
+    main {
+        display: block;
+    }
+}
