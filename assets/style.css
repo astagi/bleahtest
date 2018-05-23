@@ -1,41 +1,48 @@
+@import 'reset.css';
+@import 'bootstrap-grid.css';
+
 
 body {
     background-color: darkblue;
-    display: flex;
+    /* display: flex;
     min-height: 100vh;
-    flex-direction: column;
+    flex-direction: column; */
+}
+
+.container {
+    min-height: 100vh;
 }
 
 header {
-    flex: 1;
+    /* flex: 1; */
     background-color: yellow;
-    display: block;
-    width: 100%;
+    /* display: block;
+    width: 100%; */
 }
 
 main {
-    flex: 4;
-    display: flex;
+    /* flex: 4;
+    display: flex; */
     background-color: red;
 }
 
 footer {
     background-color: blue;
-    flex: 1;
+    /* flex: 1; */
 }
 
 .side {
-    flex: 1;
+    /* flex: 1; */
     background-color: pink;
 }
 
 .main {
-    flex: 8;
+    /* flex: 8; */
     background-color: darkred;
 }
 
-@media (max-width: 600px) {
+/* @media (max-width: 600px) {
     main {
         display: block;
     }
-}
+} */
