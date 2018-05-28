@@ -1,5 +1,16 @@
-@import 'reset.css';
-@import 'bootstrap-grid.css';
+@import 'reset';
+@import 'bootstrap-grid';
+
+
+$ciano: cyan;
+$rosa: hotpink;
+
+$bicchiere: black;
+$header-color: cyan;
+
+$i: green;
+$t: white;
+$a: red;
 
 
 body {
@@ -15,7 +26,7 @@ body {
 
 header {
     /* flex: 1; */
-    background-color: yellow;
+    background-color: $header-color;
     /* display: block;
     width: 100%; */
 }
@@ -23,17 +34,17 @@ header {
 main {
     /* flex: 4;
     display: flex; */
-    background-color: red;
+    background-color: $i;
 }
 
 footer {
-    background-color: blue;
+    background-color: $t;
     /* flex: 1; */
 }
 
 .side {
     /* flex: 1; */
-    background-color: pink;
+    background-color: $a;
 }
 
 .main {
